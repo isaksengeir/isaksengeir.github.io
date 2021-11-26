@@ -1,0 +1,4 @@
+sphinx
+sphinx-autobuild
+groundwork-sphinx-theme
+myst-parser
