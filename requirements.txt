@@ -1,4 +1,5 @@
 sphinx
 sphinx-autobuild
 groundwork-sphinx-theme
+sphinxemoji
 myst-parser

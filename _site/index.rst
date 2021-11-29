@@ -4,7 +4,7 @@ Cheats sheets
 -----------------------------
  by Geir Villy Isaksen, Ph.D
 -----------------------------
-You have now entered my github page - a collection of cheats & hacks I forget every day.
+You have now entered my github page - a collection of cheats & hacks I forget every day |:notebook:|.
 
 This page was updated |today|.
 
