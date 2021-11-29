@@ -1,15 +1,15 @@
----
-orphan: true
----
 
 # Useful links to resources
 In this page I collect links to resources around on the web, that I find useful and don't want to google 
 search after again. 
 
 
-## NRIS & Sigma2 :laptop:
-- [Gitlab]()
-- [Documentation](https://documentation.sigma2.no)
+## NRIS & Sigma2 
+- [OPSLOG](https://opslog.sigma2.no)
+- [Hardware live status](https://www.sigma2.no/hardware-status)
+- [Gitlab Sigma2](https://gitlab.sigma2.no)
+- [Documentation Sigma2](https://documentation.sigma2.no)
+
 
 ## Git stuff
 ### Sphinx
