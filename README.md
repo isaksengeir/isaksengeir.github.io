@@ -1,4 +1,5 @@
 # Welcome to Cheats Sheets
+[Geir Villy Isaksen's cheat sheets](isaksengeir.github.io)
 
 ```bash=
 cd to/where/ever
@@ -10,3 +11,5 @@ pip install -r requirements.txt
 
 sphinx_build _site .
 ```
+
+New MD files to be included must be added in _site/index.rst before building the page.
