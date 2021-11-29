@@ -1,5 +1,5 @@
 # Welcome to Cheats Sheets
-[Geir Villy Isaksen's cheat sheets](isaksengeir.github.io)
+[Geir Villy Isaksen's cheat sheets](https://isaksengeir.github.io/)
 
 ```bash=
 cd to/where/ever
