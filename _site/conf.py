@@ -15,18 +15,23 @@
 # sys.path.insert(0, os.path.abspath('.'))
 import datetime
 
+import sys
+import os
+
+sys.path.append(os.path.abspath('sphinxext'))
+
 
 # -- Project information -----------------------------------------------------
 
-project = 'Geir Villy Isaksen cheats sheets'
+project = "Geir Villy Isaksen's cheats sheets"
 copyright = f'{datetime.datetime.now().year}, Geir Villy Isaksen'
 author = 'Geir Villy Isaksen'
 
 # Logo setup
-#html_favicon = 'img/sigma2.ico'
-#html_logo = 'img/logo.png'
+#html_favicon = '...'
+#html_logo = 'artsy/cheats_sheets.png'
 
-html_title = 'Geir Villy Isaksen cheats sheets'
+html_title = "Geir Villy Isaksen's cheats sheets"
 html_short_title = 'GVI cheats'
 html_show_sourcelink = False
 html_permalinks_icon = '<span>#</span>'
@@ -37,16 +42,33 @@ html_permalinks_icon = '<span>#</span>'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
+import markdown
+
+#md = markdown.Markdown(extensions=['pymdownx.emoji'])
+
 extensions = ['myst_parser',
               'sphinx.ext.githubpages',
               'sphinxemoji.sphinxemoji']
-
 
 source_suffix = {
     '.rst': 'restructuredtext',
     '.txt': 'markdown',
     '.md': 'markdown',
 }
+
+myst_enable_extensions = [
+    "amsmath",
+    "colon_fence",
+    "deflist",
+    "dollarmath",
+    "html_admonition",
+    "html_image",
+    #"linkify",
+    "replacements",
+    "smartquotes",
+    "substitution",
+    "tasklist",
+]
 
 
 # Add any paths that contain templates here, relative to this directory.

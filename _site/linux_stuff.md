@@ -1,10 +1,54 @@
 
-# Linux we must master |:heart_eyes:|
+# In Linux we trust
+Some linux related commands I use from time to time...
 
+## Users & groups
+### Adding a new user
+
+### Create new group
+**groupadd** command
+```bash
+groupadd <mynewgroup>
+```
+
+### Add user to group
+**usermod** command
+```bash
+usermod -a -G <groupname> <username>
+```
+:::{note}
+Uppercase -G assigns new secondary grouå
+
+Lowercase -g primary group is assigned
+:::
+
+### Change / set primary group
+A user can be part of several groups, but one of the groups is always the primary, and the others secondary.
+```bash
+usermod -g <groupname> <username>
+```
+
+### What group does a user have access to:
+Run the **groups** command
+```bash
+groups <username>
+```
+or view the numerical IDs for each group with the **id** command:
+```bash
+id <username>
+```
+
+
+## Cron jobs ...
+
+## MD sphinx testing
+Code blocks:
 ```python
 for i in range(10):
     print(i)
 ```
+
+Equation arrays:
 
 $$
    \begin{eqnarray}
@@ -13,11 +57,25 @@ $$
    \end{eqnarray}
 $$
 
-## TODO
+A TODO list?:
 - [ ] something 1
 - [ ] something 2
 - [x] Done 1
 
+TODO list checkboxes are **not** displayed correctly in HTML created by sphinx....
+
+### MD emojis are not handled by sphinx!?
+This I find pretty weird to be honest....
+
 :{notebook}:
 
-## To see if we can link to a markdown file?
+
+:::{warning}
+And here's a note with a colon fence!
+:::
+
+:{notebook}: :notebook: {:notebook:} :::{notebook}:::
+
+This text includes a smily face |:smile:| and a snake too! |:snake:|
+
+Don't you love it? |:heart_eyes:|

@@ -12,9 +12,12 @@ search after again. :notebook:
 
 
 ## Git stuff
-### Sphinx
-- [RST language](https://sphinx-tutorial.readthedocs.io/step-1/)
-- [MyST markdown syntax](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html)
+### Github pages & Sphinx
+- [RST](https://docutils.sourceforge.io/docs/user/rst/quickref.html)
+- [Sphinx / RST](https://sphinx-tutorial.readthedocs.io/step-1/)
 - [Sphinx usage / docs](https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html)
+- [MyST markdown syntax](https://myst-parser.readthedocs.io/en/latest/syntax/optional.html)
 
 
+## Just for fun
+- [Advent of Code](https://adventofcode.com) --> 
