@@ -20,9 +20,8 @@ welcome to sniff around as much as you like, and if you like what you find, awes
 
 .. toctree::
     :maxdepth: 1
-    :caption: Me myself and I
 
-    About <about.md>
+    Geir Villy Isaksen <about.md>
 
 .. toctree::
    :maxdepth: 1

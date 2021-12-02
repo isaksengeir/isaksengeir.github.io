@@ -29,7 +29,7 @@ author = 'Geir Villy Isaksen'
 
 # Logo setup
 #html_favicon = '...'
-#html_logo = 'artsy/cheats_sheets.png'
+#html_logo = 'artsy/cheats_sheets_logo_white_200px.png'
 
 html_title = "Geir Villy Isaksen's cheats sheets"
 html_short_title = 'GVI cheats'

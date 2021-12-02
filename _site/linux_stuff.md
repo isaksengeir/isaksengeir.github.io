@@ -3,7 +3,19 @@
 Some linux related commands I use from time to time...
 
 ## Users & groups
-### Adding a new user
+### Create a new user
+**useradd** command
+```bash
+useradd username
+```
+By default this creates ``/home/username``. 
+
+### Set / change password
+**passwd** command
+```bash
+passwd username
+```
+ 
 
 ### Create new group
 **groupadd** command
@@ -17,7 +29,7 @@ groupadd <mynewgroup>
 usermod -a -G <groupname> <username>
 ```
 :::{note}
-Uppercase -G assigns new secondary grouå
+Uppercase -G assigns new secondary group
 
 Lowercase -g primary group is assigned
 :::
