@@ -20,4 +20,5 @@ search after again. :notebook:
 
 
 ## Just for fun
-- [Advent of Code](https://adventofcode.com) --> 
+- [Advent of Code](https://adventofcode.com) Yearly advent (1st-25th December) code challenge 
+- [CSES Problem Set](https://cses.fi/problemset/) When AoC is not enough
