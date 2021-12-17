@@ -2,6 +2,31 @@
 # In Linux we trust
 Some linux related commands I use from time to time...
 
+## File permission
+Change file permission with **chmod**
+- `r` (read) has a value of `4`
+- `w` (write) has a value of `2`
+- `x` (execute) has a value of `1`
+- `-` No permission has value `0`
+
+The values are additive so that *rw* has the value 6 and *rwx* has the value 7.
+
+- There are 3 triplets:
+   - `-rw-r--r--`
+   - user (u) - group (g) - others (o)
+
+### Assign group(s) to files/directories
+Uing the command **chgrp**
+```bash
+ chgrp <groupname> <filename>
+ ```
+The group must exist prior to assigning it to files.
+
+### Change ownership
+```bash
+chown <username> <file/directory>
+```
+
 ## Users & groups
 ### Create a new user
 **useradd** command
