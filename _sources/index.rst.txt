@@ -28,6 +28,8 @@ welcome to sniff around as much as you like, and if you like what you find, awes
    :caption: Stuff I often forget
 
     Linux <linux_stuff.md>
+    Scripting & Environments <scripting.md>
+    HPC <HPC.md>
 
 .. toctree::
    :maxdepth: 1

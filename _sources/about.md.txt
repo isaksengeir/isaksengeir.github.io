@@ -14,8 +14,8 @@ on right now, I have once upon a time also created these sites:
 - [Brandsdalg Group](https://isaksengeir.github.io/brandsdal_group/)
   - This is a site I made for my Ph.D supervisor's research group in **2014** and maintained it up until around **2016**.
   - [View source @ github](https://github.com/isaksengeir/brandsdal_group/tree/master)
-
-- 
+- [CUBE3](https://site.uit.no/cube/)
+  - All graphic design created by me - webpage created with [WordPress](https://wordpress.com/)
 
 ![cheats sheats](artsy/cheats_sheets_logo_black_200px.png)
 
