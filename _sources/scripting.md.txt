@@ -70,7 +70,24 @@ conda env remove --name <env_name>
 ```
 
 ### Save and share environments
-Save the current environment to a text file with
+Dependencies can be stored in a YAML fils that can be read on all platforms
+(mac, win, linux):
+```bash
+conda env export --name ENV_NAME > env_name.yml
+```
+and to create the environment:
+```bash
+conda env create --file env_name.yml
+```
+:::{note}
+if there is a file named *environmet.yml* in your current director, you can simlply just type:
+```bash
+conda env create
+```
+:::
+
+#### Save with exact packages
+Save the current environment (exact) to a text file with
 ```bash
 conda list --explicit > env_name.txt
 ```
@@ -78,6 +95,10 @@ and rebuild the exact environment with
 ```bash
 conda env create --file env_name.txt
 ```
+
+:::{warning}
+This will probably not work cross-platfonrm
+:::
 
 
 

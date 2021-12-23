@@ -207,7 +207,31 @@
 </section>
 <section id="save-and-share-environments">
 <h3>Save and share environments<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#save-and-share-environments"><span>#</span></a></h3>
-<p>Save the current environment to a text file with</p>
+<p>Dependencies can be stored in a YAML fils that can be read on all platforms
+(mac, win, linux):</p>
+<div class="code-wrapper" data-controller="code">
+<div class="code-header">
+<span class="code-lang">bash</span></div>
+<div class="highlight"><pre><code>conda env <span class="nb">export</span> --name ENV_NAME &gt; env_name.yml
+</code></pre></div></div>
+<p>and to create the environment:</p>
+<div class="code-wrapper" data-controller="code">
+<div class="code-header">
+<span class="code-lang">bash</span></div>
+<div class="highlight"><pre><code>conda env create --file env_name.yml
+</code></pre></div></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>if there is a file named <em>environmet.yml</em> in your current director, you can simlply just type:</p>
+<div class="code-wrapper" data-controller="code">
+<div class="code-header">
+<span class="code-lang">bash</span></div>
+<div class="highlight"><pre><code>conda env create
+</code></pre></div></div>
+</div>
+<section id="save-with-exact-packages">
+<h4>Save with exact packages<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#save-with-exact-packages"><span>#</span></a></h4>
+<p>Save the current environment (exact) to a text file with</p>
 <div class="code-wrapper" data-controller="code">
 <div class="code-header">
 <span class="code-lang">bash</span></div>
@@ -219,6 +243,11 @@
 <span class="code-lang">bash</span></div>
 <div class="highlight"><pre><code>conda env create --file env_name.txt
 </code></pre></div></div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>This will probably not work cross-platfonrm</p>
+</div>
+</section>
 </section>
 </section>
 </section>
