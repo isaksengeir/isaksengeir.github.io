@@ -20,6 +20,7 @@ welcome to sniff around as much as you like, and if you like what you find, awes
 
 .. toctree::
     :maxdepth: 1
+    :caption: About
 
     Geir Villy Isaksen <about.md>
 
