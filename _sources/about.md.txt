@@ -47,16 +47,23 @@ and the University of Tromsø.
 ### Qgui 
 <img src="artsy/logo_qgui.jpg" height="100">
 
+[View source](https://github.com/qusers/qgui)
+
 ### QresFEP / Qgui 2.0 
 <img src="artsy/qgui_box.png" height="100">
+
+[View source](https://github.com/qusers/qgui)
 
 ### *chem*REACT
 <img src="artsy/react.png" height="100">
 
+[View website](https://chemreact.github.io/)
+
 ### appNRIS
+[View source](https://github.com/isaksengeir/appNRIS)
 
 ### cliNRIS
-
+[View source](https://github.com/isaksengeir/cliNRIS)
 
 ## Web pages & graphical design
 
