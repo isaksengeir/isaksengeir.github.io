@@ -1,41 +1,46 @@
 
-
 ![cheats sheats](artsy/cheats_sheets_logo_black_200px.png)
 # Geir Villy Isaksen
-<img src="artsy/Isaksen_2018.jpg" height="200" align="left">
+**Status quo:** Wannabe software engineer (Senior engineer) at 
+[NRIS - Norwegian research infrastructure services](https://www.sigma2.no/nris) / [UiT](https://www.uit.no)
+<img src="artsy/Isaksen_2018.jpg" height="200" align="left"> 
 
-I have a *Ph.D* in computational molecular sciences, but back in 2005 when I started at UiT the Arctic University of
-Norway, I knew little about the "*computational*" part. Thus, starting out I thought I was heading down the experimentalist road. 
-However, once I first became familiar with molecular modeling, both my interests and my academic path started shifting. 
-I did my Masters degree in chemistry (2008-2010), which was 50/50 experimental and theoretical work. However, I must admit 
-that I have not set foot in a wet-lab ever since. During my Ph.D (2010-2015) I did only theoretical work, and my 
-interests in coding, graphical deign and software development awoke. 
+<span style="font-family:Papyrus;"> It is true that I hold a *Ph.D* in computational chemistry / molecular sciences. It is
+also true that when I began my university studies back in 2005 I knew little to nothing about the "*computational*" part. 
+Nevertheless, when I first became familiar with molecular modeling and computer simulations, both my interests and my planned 
+academic path started shifting. 
+</span>
+
+<span style="font-family:Papyrus;">
+After a bachelor's degree in chemistry, I ended up doing my Master's degree in chemistry/structural biology (2008-2010)
+as a 50/50 mix between experimental and theoretical work. Here I must admit that I have not set foot in a wet-lab ever since. 
+During my Ph.D (2010-2015) I did only theoretical work and software development. Thus, my interests in coding, graphical 
+deign and software development awoke. After my Ph.D I did a post-doctoral,period partly in Uppsala, Sweden, followed by 
+3 productive years as a senior researcher.
+</span>
 
 
-## Summary & key skills
-- TODO
+**Iteratively improving Self-taught skills I know (or used to know):**
+<span style="font-size:0.8em; color:purple;"> `HPC` `Python` `OOP` `Virtual environment` `Anaconda` `Conda`
+`Qt` `PyQt` `Bash` `CSS` `HTML` `Markdown`
+`Github` `Gitlab` `Git` `Tkinter` `Objective-C`
+`Javascript` `MAC` `OS` `Linux` `Stackoverflow`
+`Adobe Photoshop` `Adobe Illustrator` `PERL` `FORTRAN` `SLURM` `Matplotlib`
+</span>
 
-### Relevant keywords 
-- Python
-- Virtual environment
-- Anaconda / Conda
-- Qt
-- PyQt
-- Bash
-- CSS
-- HTML
-- Markdown
-- Github / Gitlab / Git
-- Tkinter
-- Objective-C
-- Javascript
-- MAC OS
-- Linux
-- Stackoverflow
-- Adobe Photoshop
-- Adobe Illustrator
-- PERL
-- FORTRAN
+## Expertise & key skills
+- Pioneering research and dissemination with publications in  world leading journals such as Nature Reviews,
+Proceedings of the National Academy of Sciences and Accounts of Chemical Research
+- Recognized international partners, both theoretical and experimental, such as
+Professor Johan Åqvist and Professor Maria Selmer through the 5-year project “Evolution of new genes and
+proteins” with funding from the Knut and Alice Wallenberg Foundation.
+- More than 14 years of teaching experience as both course coordinator and lecturer. Has been responsible for own courses,
+subject plans, laboratory experiments, examination and grading.
+- Broad professional background ranging from experimental techniques such as X-ray crystallography and isothermal
+titration calorimetry to theoretical methods such as empirical valence binding (EVB) and ab initio methods (QM).
+- Software developer (Python, PyQt, Tkinter, fortran, bash, objective-C) with, among others, the graphical user interface
+"Qgui", which has users all over the world. Qgui is also used regularly in teaching context at both Uppsala University 
+and the University of Tromsø.
 
 ## Software development
 
@@ -57,17 +62,21 @@ interests in coding, graphical deign and software development awoke.
 
 Websites with HTML/CSS/JS have not been what I have spent the most time on throughout the years. But, besides the page that 
 we are on right now, I have once upon a time also created and/or contributed to these sites:
-- [Playmol](https://isaksengeir.github.io/playmol)
-  - I created this site more or less from scratch (html/css). It served online **2012 - 2013**.
+### [Playmol](https://isaksengeir.github.io/playmol)
+I created this site more or less from scratch (html/css). It served online **2012 - 2013**.
   - [View source @ github](https://github.com/isaksengeir/playmol/tree/master)
-- [Brandsdal Group](https://isaksengeir.github.io/brandsdal_group/)
-  - This is a site I made for my Ph.D supervisor's research group in **2014** and maintained it up until around **2016**.
-  - [View source @ github](https://github.com/isaksengeir/brandsdal_group/tree/master)
-- [CUBE3](https://site.uit.no/cube/)
-  - All graphical design created by me - webpage created with [WordPress](https://wordpress.com/)
-- [The Norwegian academic high-performance computing and storage services](https://documentation.sigma2.no/#the-norwegian-academic-high-performance-computing-and-storage-services)
-  - Joint collaboration between UiT, UiO, UiB, NTNU and UNINETT Sigma2 where I have contributed particularly to the the 
-  software / application documentation of [Schrödinger](https://documentation.sigma2.no/software/application_guides/schrodinger/schrodinger.html?highlight=schrodinger#)
+
+### [Brandsdal Group](https://isaksengeir.github.io/brandsdal_group/)
+This is a site I made for my Ph.D supervisor's research group in **2014** and maintained it up until around **2016**.
+    - [View source @ github](https://github.com/isaksengeir/brandsdal_group/tree/master)
+
+### [CUBE3](https://site.uit.no/cube/)
+All graphical design created by me - webpage created with [WordPress](https://wordpress.com/)
+
+### [The Norwegian academic high-performance computing and storage services](https://documentation.sigma2.no/#the-norwegian-academic-high-performance-computing-and-storage-services)
+Joint collaboration between UiT, UiO, UiB, NTNU and UNINETT Sigma2 where I have contributed particularly to the the 
+software / application documentation of 
+[Schrödinger](https://documentation.sigma2.no/software/application_guides/schrodinger/schrodinger.html?highlight=schrodinger#)
 
 
 

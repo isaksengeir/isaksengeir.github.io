@@ -3,7 +3,7 @@
 ## Python
 ```bash
 python3 -m venv <venv_name>
-source venv/bin/activate
+source venv_name/bin/activate
 ```
 
 
