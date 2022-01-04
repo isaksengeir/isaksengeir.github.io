@@ -15,7 +15,7 @@ academic path started shifting.
 After a bachelor's degree in chemistry, I ended up doing my Master's degree in chemistry/structural biology (2008-2010)
 as a 50/50 mix between experimental and theoretical work. Here I must admit that I have not set foot in a wet-lab ever since. 
 During my Ph.D (2010-2015) I did only theoretical work and software development. Thus, my interests in coding, graphical 
-deign and software development awoke. After my Ph.D I did a post-doctoral,period partly in Uppsala, Sweden, followed by 
+design and software development awoke. After my Ph.D I did a post-doctoral,period partly in Uppsala, Sweden, followed by 
 3 productive years as a senior researcher.
 </span>
 
