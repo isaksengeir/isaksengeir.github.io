@@ -42,27 +42,28 @@ titration calorimetry to theoretical methods such as empirical valence binding (
 and the University of Tromsø.
 
 ## Software development
-
-### Qgui 
-<img src="artsy/logo_qgui.jpg" height="100">
-
-[View source](https://github.com/qusers/qgui)
-
-### QresFEP / Qgui 2.0 
-<img src="artsy/qgui_box.png" height="100">
-
-[View source](https://github.com/qusers/qgui)
-
-### *chem*REACT
+### [*chem*REACT](https://chemreact.github.io/)
 <img src="artsy/react.png" height="100">
 
 [View website](https://chemreact.github.io/)
 
-### appNRIS
+### [appNRIS](https://github.com/isaksengeir/appNRIS)
 [View source](https://github.com/isaksengeir/appNRIS)
 
-### cliNRIS
+### [cliNRIS](https://github.com/isaksengeir/cliNRIS)
 [View source](https://github.com/isaksengeir/cliNRIS)
+
+### [Qgui](https://github.com/qusers/qgui) 
+<img src="artsy/logo_qgui.jpg" height="100">
+
+[View source](https://github.com/qusers/qgui)
+
+### [QresFEP / Qgui 2.0](https://github.com/qusers/qgui) 
+<img src="artsy/qgui_box.png" height="100">
+
+[View source](https://github.com/qusers/qgui)
+
+
 
 ## Web pages & graphical design
 
