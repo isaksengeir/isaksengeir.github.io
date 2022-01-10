@@ -27,6 +27,7 @@ several productive years as a senior researcher.
 `Adobe Photoshop` `Adobe Illustrator` `PERL` `FORTRAN` `SLURM` `Matplotlib`
 </span>
 
+
 ## Expertise & key skills
 - Pioneering research and dissemination with publications in  world leading journals such as Nature Reviews,
 Proceedings of the National Academy of Sciences and Accounts of Chemical Research
@@ -41,6 +42,7 @@ titration calorimetry to theoretical methods such as empirical valence binding (
 "Qgui", which has users all over the world. Qgui is also used regularly in teaching context at both Uppsala University 
 and the University of Tromsø.
 
+
 ## Software development
 ### [*chem*REACT](https://chemreact.github.io/)
 <img src="artsy/react.png" height="100">
@@ -48,9 +50,13 @@ and the University of Tromsø.
 [View website](https://chemreact.github.io/)
 
 ### [appNRIS](https://github.com/isaksengeir/appNRIS)
+<img src="artsy/appNRIS.png" height="100">
+
 [View source](https://github.com/isaksengeir/appNRIS)
 
 ### [cliNRIS](https://github.com/isaksengeir/cliNRIS)
+<img src="artsy/cliNRIS.png" height="100">
+
 [View source](https://github.com/isaksengeir/cliNRIS)
 
 ### [Qgui](https://github.com/qusers/qgui) 
