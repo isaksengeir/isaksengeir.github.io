@@ -50,12 +50,12 @@ and the University of Tromsø.
 [View website](https://chemreact.github.io/)
 
 ### [appNRIS](https://github.com/isaksengeir/appNRIS)
-<img src="artsy/appNRIS.png" height="100">
+<img src="artsy/appnrisAsset.png" height="100">
 
 [View source](https://github.com/isaksengeir/appNRIS)
 
 ### [cliNRIS](https://github.com/isaksengeir/cliNRIS)
-<img src="artsy/cliNRIS.png" height="100">
+<img src="artsy/clinrisAsset.png" height="100">
 
 [View source](https://github.com/isaksengeir/cliNRIS)
 
