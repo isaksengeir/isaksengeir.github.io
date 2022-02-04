@@ -153,3 +153,4 @@ software / application documentation of
 - [1]	Karstad, Rasmus Tørnes; **Isaksen, Geir**; Brandsdal, Bjørn Olav; Svendsen, John Sigurd; Svenson, Johan. 
 [Unnatural Amino Acid Side Chains as S1, S1 ', and S2 ' Probes Yield Cationic Antimicrobial Peptides with Stability toward Chymotryptic Degradation.](https://pubs.acs.org/doi/10.1021/jm1006337) *Journal of Medicinal Chemistry* (2010); Volum 53.(15) s. 5558-5566
 
+IF you can see this - Then sphinx autobuild and depoly worked. If not, well....
