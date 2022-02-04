@@ -24,7 +24,7 @@ several productive years as a senior researcher.
 `Qt` `PyQt` `Bash` `CSS` `HTML` `Markdown`
 `Github` `Gitlab` `Git` `Tkinter` `Objective-C`
 `Javascript` `MAC` `OS` `Linux` `Stackoverflow`
-`Adobe Photoshop` `Adobe Illustrator` `PERL` `FORTRAN` `SLURM` `Matplotlib`
+`Adobe Photoshop` `Adobe Illustrator` `PERL` `FORTRAN` `SLURM` `Matplotlib` `C#` `SQL`
 </span>
 
 
