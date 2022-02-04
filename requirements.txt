@@ -1,0 +1,7 @@
+sphinx
+markdown
+sphinx-autobuild
+groundwork-sphinx-theme
+sphinxemoji
+myst-parser
+sphinxawesome_theme
