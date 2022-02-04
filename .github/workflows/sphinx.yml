@@ -1,19 +1,44 @@
-image: python:3.9.9
+# From https://github.com/rkdarst/sphinx-actions-test/blob/master/.github/workflows/sphinx-build.yml
+# Syntax reference for this file:
+# https://help.github.com/en/articles/workflow-syntax-for-github-actions
 
-build:
-  stage: build
-  script:
-  - pip install -r requirements.txt
-  - sphinx-build _site .
+name: sphinx
+on: [push, pull_request]
 
-pages:
-  stage: deploy
-  script:
-  - pip install -r requirements.txt
-  - sphinx-build _site .
-  artifacts:
-    paths:
-    - .
-  only:
-    - master
+# https://gist.github.com/c-bata/ed5e7b7f8015502ee5092a3e77937c99
+jobs:
+  build-and-delpoy:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+      # https://github.com/marketplace/actions/checkout
+      - uses: actions/checkout@v2
+      # https://github.com/marketplace/actions/setup-python
+      # ^-- This gives info on matrix testing.
+      - name: Install Python
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+      # I don't know where the "run" thing is documented.
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+      - name: Build Sphinx docs
+        run: |
+          sphinx-build _site .
+    
+      # https://github.com/peaceiris/actions-gh-pages
+      - name: Deploy
+        if: success()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          publish_branch: master
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+
+
+# This action probably does everything for you:
+# https://github.com/marketplace/actions/sphinx-build
+          
+  
 
