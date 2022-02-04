@@ -1,0 +1,19 @@
+image: python:3.9.9
+
+build:
+  stage: build
+  script:
+  - pip install -r requirements.txt
+  - sphinx-build _site .
+
+pages:
+  stage: deploy
+  script:
+  - pip install -r requirements.txt
+  - sphinx-build _site .
+  artifacts:
+    paths:
+    - .
+  only:
+    - master
+

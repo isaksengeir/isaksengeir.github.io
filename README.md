@@ -9,7 +9,7 @@ source venv/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
 
-sphinx_build _site .
+sphinx-build _site .
 ```
 
 New MD files to be included must be added in _site/index.rst before building the page.
