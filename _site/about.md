@@ -1,7 +1,7 @@
 
 ![cheats sheats](artsy/cheats_sheets_logo_black_200px.png)
 # Geir Villy Isaksen
-**Status quo:** Wannabe software engineer (Senior engineer) at 
+**Status quo:** Research software engineer (Senior engineer) at 
 [NRIS - Norwegian research infrastructure services](https://www.sigma2.no/nris) / [UiT](https://www.uit.no)
 <img src="artsy/self_02.png" height="200" align="left"> 
 
