@@ -94,7 +94,7 @@
 <li class="toctree-l1 current expanded"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="current reference internal" data-action="click-&gt;sidebar#close" href="#"> HPC</a></div><ul>
 <li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="#daily-first-line-randoms">Daily first-line randoms</a></div><ul>
 <li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#modifying-viewing-jobs-scontrol">Modifying / viewing jobs (‘scontrol’)</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#get-online-node-information">Get (online) node information:</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#get-node-information">Get node information:</a></div></li>
 <li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#how-much-memory-has-a-job-used">How much memory has a job used ?</a></div></li>
 <li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#search-for-files-for-user-in-project">Search for files for user in project</a></div></li>
 <li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#test-misbehaving-software">Test misbehaving software</a></div></li>
@@ -160,9 +160,9 @@ For now, I will just throw these in here in a random fashion. Maybe categorize l
 <p><code class="docutils literal notranslate">scontrol show job &lt;jobbid&gt; --details | grep Nodes</code></p>
 </section>
 </section>
-<section id="get-online-node-information">
-<h3>Get (online) node information:<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#get-online-node-information"><span>#</span></a></h3>
-<p><code class="docutils literal notranslate">scontrol --online show node</code></p>
+<section id="get-node-information">
+<h3>Get node information:<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#get-node-information"><span>#</span></a></h3>
+<p><code class="docutils literal notranslate">scontrol --oneliner show node</code> &lt;– one line per node. Remove this to get print over several lines.</p>
 </section>
 <section id="how-much-memory-has-a-job-used">
 <h3>How much memory has a job used ?<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#how-much-memory-has-a-job-used"><span>#</span></a></h3>

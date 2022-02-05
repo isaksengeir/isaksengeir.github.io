@@ -20,8 +20,8 @@ For now, I will just throw these in here in a random fashion. Maybe categorize l
 `scontrol show job <jobbid> --details | grep Nodes`
 
 
-### Get (online) node information:
-`scontrol --online show node`
+### Get node information:
+`scontrol --oneliner show node` <-- one line per node. Remove this to get print over several lines.
 
 ### How much memory has a job used ? 
 `sacct -j 2138531 --format=MaxRSS` ([SACCT](https://slurm.schedmd.com/sacct.html))
