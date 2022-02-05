@@ -42,7 +42,7 @@ For now, I will just throw these in here in a random fashion. Maybe categorize l
 
 ## Modules (lua)
 ### Custom modules 
-You can do your own modules, say under $HOME/my_modules. Then, you can make them available for module commands by running `module use -a $HOME/my_modules.`
+You can do your own modules, say under HOME/my_modules. Then, you can make them available for module commands by running `module use -a $HOME/my_modules.`
 
 ### Show hidde modules
 `module --show-hidden avail`
