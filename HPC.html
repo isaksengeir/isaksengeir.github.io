@@ -91,7 +91,26 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l1 current expanded"><div class="nav-link"><a class="current reference internal" data-action="click-&gt;sidebar#close" href="#"> HPC</a></div></li>
+<li class="toctree-l1 current expanded"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="current reference internal" data-action="click-&gt;sidebar#close" href="#"> HPC</a></div><ul>
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="#daily-first-line-randoms">Daily first-line randoms</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#modifying-viewing-jobs-scontrol">Modifying / viewing jobs (‘scontrol’)</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#get-online-node-information">Get (online) node information:</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#how-much-memory-has-a-job-used">How much memory has a job used ?</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#search-for-files-for-user-in-project">Search for files for user in project</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#test-misbehaving-software">Test misbehaving software</a></div></li>
+</ul>
+</li>
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="#modules-lua">Modules (lua)</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#custom-modules">Custom modules</a></div></li>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#show-hidde-modules">Show hidde modules</a></div></li>
+</ul>
+</li>
+<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="#node-cpu-core-task">Node cpu core/task</a></div><ul>
+<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#sbatch-options">sbatch options</a></div></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Don't want to Google it, again ?</span></p>
 <ul>
@@ -119,6 +138,90 @@
 <article class="flex-1" role="main">
 <section class="tex2jax_ignore mathjax_ignore" id="hpc-cheats">
 <h1>HPC cheats<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#hpc-cheats"><span>#</span></a></h1>
+<p><a class="reference external" href="https://metacenter.no" rel="nofollow noopener">MAS<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></p>
+<p><a class="reference external" href="https://documentation.sigma2.no/jobs/monitoring.html" rel="nofollow noopener">Monitoring jobs<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></p>
+<p><a class="reference external" href="https://slurm.schedmd.com/sacct.html" rel="nofollow noopener">SACCT<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></p>
+<section id="daily-first-line-randoms">
+<h2>Daily first-line randoms<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#daily-first-line-randoms"><span>#</span></a></h2>
+<p><i>“hmm, how did I do that again?”</i>
+For now, I will just throw these in here in a random fashion. Maybe categorize later …</p>
+<section id="modifying-viewing-jobs-scontrol">
+<h3>Modifying / viewing jobs (‘scontrol’)<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#modifying-viewing-jobs-scontrol"><span>#</span></a></h3>
+<section id="extend-wall-time">
+<h4>Extend wall-time<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#extend-wall-time"><span>#</span></a></h4>
+<p><code class="docutils literal notranslate">scontrol update jobId 12345 TimeLimit=4-00:00:00</code></p>
+</section>
+<section id="change-account-for-job-in-queue">
+<h4>Change –account for job in queue<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#change-account-for-job-in-queue"><span>#</span></a></h4>
+<p><code class="docutils literal notranslate">scontrol update jobid=&lt;ID&gt; account=&lt;new acc&gt; qos=&lt;new acc&gt;</code></p>
+</section>
+<section id="get-job-info">
+<h4>Get job info<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#get-job-info"><span>#</span></a></h4>
+<p><code class="docutils literal notranslate">scontrol show job &lt;jobbid&gt; --details | grep Nodes</code></p>
+</section>
+</section>
+<section id="get-online-node-information">
+<h3>Get (online) node information:<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#get-online-node-information"><span>#</span></a></h3>
+<p><code class="docutils literal notranslate">scontrol --online show node</code></p>
+</section>
+<section id="how-much-memory-has-a-job-used">
+<h3>How much memory has a job used ?<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#how-much-memory-has-a-job-used"><span>#</span></a></h3>
+<p><code class="docutils literal notranslate">sacct -j 2138531 --format=MaxRSS</code> (<a class="reference external" href="https://slurm.schedmd.com/sacct.html" rel="nofollow noopener">SACCT<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a>)</p>
+</section>
+<section id="search-for-files-for-user-in-project">
+<h3>Search for files for user in project<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#search-for-files-for-user-in-project"><span>#</span></a></h3>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate">find $USERWORK -type f -group $PROJECT</code></p></li>
+<li><p><code class="docutils literal notranslate">find $USERHOME -type f -group $PROJECT</code></p></li>
+<li><p><code class="docutils literal notranslate">lfs quota -g $PROJECT /cluster</code></p></li>
+<li><p><code class="docutils literal notranslate">rbh-du (robin hood -- can be delay)</code></p></li>
+<li><p><code class="docutils literal notranslate">lfs find /cluster/home/ -type f --group nn1234k</code>  (LUSTRE)</p></li>
+</ul>
+</section>
+<section id="test-misbehaving-software">
+<h3>Test misbehaving software<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#test-misbehaving-software"><span>#</span></a></h3>
+<p><em>strace</em> is useful for debugging. Example here with gaussian:</p>
+<p><code class="docutils literal notranslate">strace -f -e trace=%process,open,stat -o strace.log g16.ib \$input.com &gt; \$input.out</code></p>
+</section>
+</section>
+<section id="modules-lua">
+<h2>Modules (lua)<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#modules-lua"><span>#</span></a></h2>
+<section id="custom-modules">
+<h3>Custom modules<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#custom-modules"><span>#</span></a></h3>
+<p>You can do your own modules, say under <span class="math notranslate nohighlight">\(HOME/my_modules. Then, you can make them available for module commands by running `module use -a \)</span>HOME/my_modules.`</p>
+</section>
+<section id="show-hidde-modules">
+<h3>Show hidde modules<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#show-hidde-modules"><span>#</span></a></h3>
+<p><code class="docutils literal notranslate">module --show-hidden avail</code></p>
+</section>
+</section>
+<section id="node-cpu-core-task">
+<h2>Node cpu core/task<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#node-cpu-core-task"><span>#</span></a></h2>
+<p>Node –&gt; CPU(s) –&gt; Core(s)/tasks</p>
+<ul class="simple">
+<li><p>A node is the physical box containing a computer</p>
+<ul>
+<li><p>Has unique hostname and set of running processes</p></li>
+</ul>
+</li>
+<li><p>The motherboard in each node can have several sockets and thus a cpu chip in each sockeet</p></li>
+<li><p>Each CPU has multiple cores</p></li>
+<li><p>Node is a compute node (one computer)</p></li>
+<li><p>CPU is a processor inside a node. There are 2 CPUS per node. This is also called a socket</p></li>
+<li><p>Core is a processing unit inside a CPU. This differs for each system and you can check with the command <mark>freepe</mark> to get a list of all the variations and how much is free at a given time.</p></li>
+</ul>
+<section id="sbatch-options">
+<h3>sbatch options<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#sbatch-options"><span>#</span></a></h3>
+<ul class="simple">
+<li><p>–nodes: nodes/machines</p></li>
+<li><p>–ntasks: MPI tasks or processes, equal to “cores” only when “cpus-per-task” is set to one</p></li>
+<li><p>–cpus-per-tasks: number of cores per task/process</p></li>
+<li><p>–mem-per-cpu: memory per core</p></li>
+<li><p>–mem: memory per node</p></li>
+</ul>
+<p>If a program accepts an option called -threads, it typically refers to shared memory (OpenMP etc) which relates to the –cpus-per-task option in sbatch.</p>
+</section>
+</section>
 </section>
 </article>
 <footer>
@@ -133,6 +236,8 @@
 <script src="_static/jquery.js"></script>
 <script src="_static/underscore.js"></script>
 <script src="_static/doctools.js"></script>
+<script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+<script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="_static/theme.3666d2347a4c66e5d7a8.js"></script>
 </body>
 </html>
