@@ -3,7 +3,7 @@
 # Geir Villy Isaksen
 **Status quo:** Wannabe software engineer (Senior engineer) at 
 [NRIS - Norwegian research infrastructure services](https://www.sigma2.no/nris) / [UiT](https://www.uit.no)
-<img src="artsy/Isaksen_2018.jpg" height="200" align="left"> 
+<img src="artsy/self_02.png" height="200" align="left"> 
 
 <span style="font-family:Papyrus;"> It is true that I hold a *Ph.D* in computational chemistry / molecular sciences. It is
 also true that when I began my university studies back in 2005 I knew little to nothing about the "*computational*" part. 
