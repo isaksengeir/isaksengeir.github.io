@@ -1,22 +1,19 @@
 
 ![cheats sheats](artsy/cheats_sheets_logo_black_200px.png)
 # Geir Villy Isaksen
-**Status quo:** Research software engineer (Senior engineer) at 
+**Status quo:** Research software engineer at 
 [NRIS - Norwegian research infrastructure services](https://www.sigma2.no/nris) / [UiT](https://www.uit.no)
 <img src="_images/self_02.png" height="200" align="left" alt="Self portrait of and by Geir Villy Isaksen"> 
 
-<span style="font-family:Papyrus;"> It is true that I hold a *Ph.D* in molecular sciences/ computational chemistry. It is
-also true that when I began my university studies back in 2005 I knew little to nothing about the "*computational*" part. 
-Nevertheless, when I first became familiar with molecular modeling and computer simulations, both my interests and my planned 
+<span style="font-family:Papyrus;"> Hello world, my name is Geir. I have a *Ph.D* in molecular sciences/ computational chemistry. When I began my university studies back in 2005 I knew little about the "*computational*" part. 
+When I first became familiar with molecular modeling and computer simulations, both my interests and my planned 
 academic path started shifting. 
 </span>
 
 <span style="font-family:Papyrus;">
-After a bachelor's degree in chemistry, I ended up doing my Master's degree in chemistry/structural biology (2008-2010)
-as a 50/50 mix between experimental and theoretical work. Here I must admit that I have not set foot in a wet-lab ever since. 
-During my Ph.D (2010-2015) I did only theoretical work and software development. Thus, my interests in coding, graphical 
-design and software development awoke. After my Ph.D I did a post-doctoral,period partly in Uppsala, Sweden, followed by 
-several productive years as a senior researcher.
+After a bachelor's degree in chemistry, I ended up doing a Master's degree in chemistry/structural biology (2008-2010)
+as a 50/50 mix between experimental and theoretical work. I must however admit that I have not set foot in a wet-lab ever since. 
+During my Ph.D (2010-2015) I focused on theoretical work and software development. After my Ph.D I did a post-doctoral period in Uppsala, Sweden, followed by several productive years as a senior researcher. My interests in coding, graphical design and software development was growing every year, and it, better late than never, came clear to me that this is what I really want to do. 
 </span>
  
 **Iteratively improving Self-taught skills I know (or used to know):**
