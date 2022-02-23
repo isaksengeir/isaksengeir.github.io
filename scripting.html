@@ -1,112 +1,151 @@
 
-<!DOCTYPE html>
+  
 
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<meta charset="utf-8"/>
-<meta content="Docutils 0.17.1: http://docutils.sourceforge.net/" name="generator"/>
-<title>Scripting &amp; environments | Geir Villy Isaksen's cheats sheets</title>
-<link href="_static/pygments.css" rel="stylesheet"/>
-<link href="_static/theme.313ea551d1799b2102b1.css" rel="stylesheet"/>
-<link href="search.html" rel="search" title="Search"/>
-<link href="genindex.html" rel="index" title="Index"/>
-<link href="HPC.html" rel="next" title="HPC cheats"/>
-<link href="linux_stuff.html" rel="prev" title="In Linux we trust"/>
-</head>
-<body class="antialiased text-gray">
-<div class="h-screen xl:grid xl:grid-layout" data-action="keydown@window-&gt;search#focus" data-controller="sidebar search" id="page">
-<a class="block text-xl bg-white py-4 z-20 absolute top-0 h-18 inset-x-0 text-center transform -translate-y-full focus:translate-y-0 focus:outline-none transition-transform duration-75" href="#scripting-amp-environments" title="Skip navigation links">Skip to content</a>
-<header class="grid-area-header z-10 h-14 sm:h-18">
-<div class="bg-gray-dark shadow-md flex items-center h-full xl:px-2 relative"><div class="flex items-center">
-<button class="xl:hidden h-14 w-14 sm:h-18 sm:w-18 leading-14 sm:leading-18 text-gray-100 hover:bg-gray-700 hover:text-brand focus:outline-none focus:bg-gray-700 focus:text-brand" data-action="sidebar#open" data-sidebar-target="hamburger">
-<span class="sr-only">Open navigation menu</span>
-<svg aria-hidden="true" class="fill-current h-8 w-8" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></svg>
-</button><a aria-label="Back to homepage" class="hover:bg-gray-700 focus:bg-gray-700 focus:outline-none tooltipped tooltipped-sw" href="index.html"><span class="hidden lg:inline-block shrink-0 font-medium text-gray-100 mx-5 leading-14 sm:leading-18 tracking-wider">Geir Villy Isaksen's cheats sheets</span>
-</a></div><div class="flex justify-end items-center flex-1"><form action="search.html" class="flex print:hidden justify-between items-center leading-14 sm:leading-18 md:ml-4 bg-gray-dark text-gray-300 focus-within:bg-gray-50 focus-within:text-gray-800 focus-within:absolute focus-within:inset-x-0 focus-within:top-0 md:focus-within:w-full md:focus-within:static" data-action="click-&gt;search#focusSearchInput" id="searchbox" method="get">
-<button aria-label="Get search results" class="text-inherit h-14 w-14 sm:h-18 sm:w-18" tabindex="-1">
-<svg aria-hidden="true" class="fill-current stroke-current h-8 w-8" stroke-width="0.5" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg>
-</button>
-<input aria-label="Search the docs" class="pr-2 bg-transparent text-inherit focus:outline-none w-0 md:w-auto focus:w-full transition-all duration-100" data-search-target="searchInput" id="search-input" name="q" placeholder="Search the docs" type="search"/>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+      <title>Scripting &amp; environments | Geir Villy Isaksen&#39;s cheats sheets</title>
+      <link rel="stylesheet" href="_static/pygments.css" />
+      <link rel="stylesheet" href="_static/theme.33684ae9923d01874503.css" />
+        <link rel="search" title="Search" href="search.html" />
+        <link rel="index" title="Index" href="genindex.html" />
+        <link rel="next" title="HPC cheats" href="HPC.html" />
+        <link rel="prev" title="In Linux we trust" href="linux_stuff.html" />
+  </head>
+
+  <body class="antialiased text-gray scroll-smooth">
+    <div
+      id="page"
+      data-controller="sidebar search"
+      data-action="keydown@window->search#focus"
+      class="h-screen xl:grid xl:grid-layout"
+    >
+      <a class="block text-xl bg-white py-4 z-20 absolute top-0 h-14 inset-x-0 text-center transform -translate-y-full focus:translate-y-0 focus:outline-none transition-transform duration-75" href="#scripting-amp-environments" title="Skip navigation links">Skip to content</a>
+
+      <header class="grid-area-header z-10 h-14">
+        <div class="bg-gray-dark shadow-md flex items-center h-full xl:px-2 relative"><div class="flex items-center">
+      <button
+    data-action="sidebar#open"
+    data-sidebar-target="hamburger"
+    class="xl:hidden h-14 w-14 leading-14 text-gray-100 hover:bg-gray-700 hover:text-brand focus:outline-none focus:bg-gray-700 focus:text-brand">
+  <span class="sr-only">Open navigation menu</span>
+  <svg aria-hidden="true" class="fill-current h-8 w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+</button><a class="hover:bg-gray-700 focus:bg-gray-700 focus:outline-none tooltipped tooltipped-sw"
+   href="index.html"
+   aria-label="Back to homepage"><span class="hidden lg:inline-block shrink-0 font-medium text-gray-100 mx-5 leading-14 tracking-wider">Geir Villy Isaksen's cheats sheets</span>
+</a></div><div class="flex justify-end items-center flex-1"><form
+  id="searchbox"
+  action="search.html"
+  data-action="click->search#focusSearchInput"
+  method="get"
+  class="flex print:hidden justify-between items-center leading-14 md:ml-4 bg-gray-dark text-gray-300 focus-within:bg-gray-50 focus-within:text-gray-800 focus-within:absolute focus-within:inset-x-0 focus-within:top-0 md:focus-within:w-full md:focus-within:static">
+
+  <button
+    class="text-inherit h-14 w-14"
+    aria-label="Get search results"
+    tabindex="-1"
+  >
+    <svg aria-hidden="true" class="fill-current stroke-current h-8 w-8" stroke-width="0.5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0016 9.5 6.5 6.5 0 109.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+  </button>
+
+  <input
+    name="q"
+    id="search-input"
+    data-search-target="searchInput"
+    type="search"
+    aria-label="Search the docs"
+    placeholder="Search the docs"
+    class="pr-2 bg-transparent text-inherit focus:outline-none w-0 md:w-auto focus:w-full transition-all duration-100"
+  />
 </form></div>
 </div>
-</header>
-<aside class="grid-area-sidebar h-full fixed xl:relative inset-y-0 left-0 z-20 xl:z-0 print:hidden overflow-y-auto transition-all transform transform-gpu -translate-x-full opacity-0 duration-300 xl:translate-x-0 xl:opacity-100" data-sidebar-target="sidebar">
-<nav class="h-full overflow-y-auto bg-white text-gray-600 pt-8 flex flex-col" role="navigation">
-<div class="nav-toc flex-1 pl-6"><p class="caption" role="heading"><span class="caption-text">About</span></p>
+      </header>
+
+      
+  <aside data-sidebar-target="sidebar" class="grid-area-sidebar h-full fixed xl:relative inset-y-0 left-0 z-20 xl:z-0 print:hidden overflow-y-auto transition-all transform transform-gpu -translate-x-full opacity-0 duration-300 xl:translate-x-0 xl:opacity-100">
+    <nav
+  role="navigation"
+  class="h-full overflow-y-auto bg-white text-gray-600 pt-8 flex flex-col"
+>
+  <div class="nav-toc flex-1 pl-6"><p class="caption" role="heading"><span class="caption-text">About</span></p>
 <ul>
-<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="about.html">Geir Villy Isaksen</a></div><ul>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="about.html#expertise-key-skills">Expertise &amp; key skills</a></div></li>
-<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="about.html#software-development">Software development</a></div><ul>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="about.html#chemreact"><em>chem</em>REACT</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="about.html#appnris">appNRIS</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="about.html#clinris">cliNRIS</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="about.html#qgui">Qgui</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="about.html#qresfep-qgui-2-0">QresFEP / Qgui 2.0</a></div></li>
+<li class="toctree-l1"><a class="reference internal" href="about.html">Geir Villy Isaksen</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="about.html#expertise-key-skills">Expertise &amp; key skills</a></li>
+<li class="toctree-l2"><a class="reference internal" href="about.html#software-development">Software development</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="about.html#chemreact"><em>chem</em>REACT</a></li>
+<li class="toctree-l3"><a class="reference internal" href="about.html#appnris">appNRIS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="about.html#clinris">cliNRIS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="about.html#qgui">Qgui</a></li>
+<li class="toctree-l3"><a class="reference internal" href="about.html#qresfep-qgui-2-0">QresFEP / Qgui 2.0</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="about.html#web-pages-graphical-design">Web pages &amp; graphical design</a></div><ul>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="about.html#playmol">Playmol</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="about.html#brandsdal-group">Brandsdal Group</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="about.html#cube3">CUBE3</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="about.html#the-norwegian-academic-high-performance-computing-and-storage-services">The Norwegian academic high-performance computing and storage services</a></div></li>
+<li class="toctree-l2"><a class="reference internal" href="about.html#web-pages-graphical-design">Web pages &amp; graphical design</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="about.html#playmol">Playmol</a></li>
+<li class="toctree-l3"><a class="reference internal" href="about.html#brandsdal-group">Brandsdal Group</a></li>
+<li class="toctree-l3"><a class="reference internal" href="about.html#cube3">CUBE3</a></li>
+<li class="toctree-l3"><a class="reference internal" href="about.html#the-norwegian-academic-high-performance-computing-and-storage-services">The Norwegian academic high-performance computing and storage services</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="about.html#publications">Publications</a></div></li>
+<li class="toctree-l2"><a class="reference internal" href="about.html#publications">Publications</a></li>
 </ul>
 </li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Stuff I often forget</span></p>
 <ul class="current">
-<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="linux_stuff.html"> Linux</a></div><ul>
-<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="linux_stuff.html#file-permission">File permission</a></div><ul>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="linux_stuff.html#assign-group-s-to-files-directories">Assign group(s) to files/directories</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="linux_stuff.html#change-ownership">Change ownership</a></div></li>
+<li class="toctree-l1"><a class="reference internal" href="linux_stuff.html"> Linux</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="linux_stuff.html#file-permission">File permission</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="linux_stuff.html#assign-group-s-to-files-directories">Assign group(s) to files/directories</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linux_stuff.html#change-ownership">Change ownership</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="linux_stuff.html#users-groups">Users &amp; groups</a></div><ul>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="linux_stuff.html#create-a-new-user">Create a new user</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="linux_stuff.html#set-change-password">Set / change password</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="linux_stuff.html#create-new-group">Create new group</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="linux_stuff.html#add-user-to-group">Add user to group</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="linux_stuff.html#change-set-primary-group">Change / set primary group</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="linux_stuff.html#what-group-does-a-user-have-access-to">What group does a user have access to:</a></div></li>
+<li class="toctree-l2"><a class="reference internal" href="linux_stuff.html#users-groups">Users &amp; groups</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="linux_stuff.html#create-a-new-user">Create a new user</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linux_stuff.html#set-change-password">Set / change password</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linux_stuff.html#create-new-group">Create new group</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linux_stuff.html#add-user-to-group">Add user to group</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linux_stuff.html#change-set-primary-group">Change / set primary group</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linux_stuff.html#what-group-does-a-user-have-access-to">What group does a user have access to:</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="linux_stuff.html#cron-jobs">Cron jobs …</a></div></li>
-<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="linux_stuff.html#md-sphinx-testing">MD sphinx testing</a></div><ul>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="linux_stuff.html#md-emojis-are-not-handled-by-sphinx">MD emojis are not handled by sphinx!?</a></div></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toctree-l1 current expanded"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="current reference internal" data-action="click-&gt;sidebar#close" href="#"> Scripting &amp; Environments</a></div><ul>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#python">Python</a></div></li>
-<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="#conda">conda</a></div><ul>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#search-and-find-packages">Search and find packages</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#installing-and-removing-packages">Installing and removing packages</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#create-and-delete-environment">Create and delete environment</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="#save-and-share-environments">Save and share environments</a></div></li>
+<li class="toctree-l2"><a class="reference internal" href="linux_stuff.html#cron-jobs">Cron jobs …</a></li>
+<li class="toctree-l2"><a class="reference internal" href="linux_stuff.html#md-sphinx-testing">MD sphinx testing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="linux_stuff.html#md-emojis-are-not-handled-by-sphinx">MD emojis are not handled by sphinx!?</a></li>
 </ul>
 </li>
 </ul>
 </li>
-<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="HPC.html"> HPC</a></div><ul>
-<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="HPC.html#daily-first-line-randoms">Daily first-line randoms</a></div><ul>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="HPC.html#modifying-viewing-jobs-scontrol">Modifying / viewing jobs (‘scontrol’)</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="HPC.html#get-node-information">Get node information:</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="HPC.html#how-much-memory-has-a-job-used">How much memory has a job used ?</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="HPC.html#search-for-files-for-user-in-project">Search for files for user in project</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="HPC.html#test-misbehaving-software">Test misbehaving software</a></div></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#"> Scripting &amp; Environments</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#python">Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#conda">conda</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#search-and-find-packages">Search and find packages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#installing-and-removing-packages">Installing and removing packages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#create-and-delete-environment">Create and delete environment</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#save-and-share-environments">Save and share environments</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="HPC.html#modules-lua">Modules (lua)</a></div><ul>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="HPC.html#custom-modules">Custom modules</a></div></li>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="HPC.html#show-hidde-modules">Show hidde modules</a></div></li>
 </ul>
 </li>
-<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="HPC.html#node-cpu-core-task">Node cpu core/task</a></div><ul>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="HPC.html#sbatch-options">sbatch options</a></div></li>
+<li class="toctree-l1"><a class="reference internal" href="HPC.html"> HPC</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="HPC.html#daily-first-line-randoms">Daily first-line randoms</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="HPC.html#modifying-viewing-jobs-scontrol">Modifying / viewing jobs (‘scontrol’)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="HPC.html#get-node-information">Get node information:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="HPC.html#how-much-memory-has-a-job-used">How much memory has a job used ?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="HPC.html#search-for-files-for-user-in-project">Search for files for user in project</a></li>
+<li class="toctree-l3"><a class="reference internal" href="HPC.html#test-misbehaving-software">Test misbehaving software</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="HPC.html#modules-lua">Modules (lua)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="HPC.html#custom-modules">Custom modules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="HPC.html#available-modules">Available modules</a></li>
+<li class="toctree-l3"><a class="reference internal" href="HPC.html#finding-hidden-modules">Finding hidden modules</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="HPC.html#node-cpu-core-task">Node cpu core/task</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="HPC.html#sbatch-options">sbatch options</a></li>
 </ul>
 </li>
 </ul>
@@ -114,164 +153,122 @@
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Don't want to Google it, again ?</span></p>
 <ul>
-<li class="toctree-l1"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="usefull_links.html"> Useful links &amp; resources</a></div><ul>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="usefull_links.html#nris-sigma2">NRIS &amp; Sigma2</a></div></li>
-<li class="toctree-l2"><div class="nav-link"><svg class="expand" data-action="click-&gt;sidebar#expand keydown-&gt;sidebar#expandKeyPressed" tabindex="0" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"></path></svg><a class="reference internal" data-action="click-&gt;sidebar#close" href="usefull_links.html#git-stuff">Git stuff</a></div><ul>
-<li class="toctree-l3"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="usefull_links.html#github-pages-sphinx">Github pages &amp; Sphinx</a></div></li>
+<li class="toctree-l1"><a class="reference internal" href="usefull_links.html"> Useful links &amp; resources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="usefull_links.html#nris-sigma2">NRIS &amp; Sigma2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="usefull_links.html#git-stuff">Git stuff</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="usefull_links.html#github-pages-sphinx">Github pages &amp; Sphinx</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><div class="nav-link"><a class="reference internal" data-action="click-&gt;sidebar#close" href="usefull_links.html#just-for-fun">Just for fun</a></div></li>
+<li class="toctree-l2"><a class="reference internal" href="usefull_links.html#just-for-fun">Just for fun</a></li>
 </ul>
 </li>
 </ul>
 </div>
-<button class="text-4xl text-gray-800 p-4 bottom-0 hover:text-brand xl:hidden focus:text-brand self-center" data-action="" title="Close navigation menu">
-<span class="sr-only">Close navigation menu</span>
-<svg aria-hidden="true" class="fill-current stroke-current h-6 w-6" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"></path></svg>
-</button>
+
+  <button
+      data-action=""
+      title="Close navigation menu"
+      class="text-4xl text-gray-800 p-4 bottom-0 hover:text-brand xl:hidden focus:text-brand self-center">
+    <span class="sr-only">Close navigation menu</span>
+    <svg aria-hidden="true" class="fill-current stroke-current h-6 w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+  </button>
 </nav>
-</aside>
-<main class="px-10 xl:ml-fluid grid-area-main overflow-y-auto flex flex-col h-full mx-0 md:mx-auto xl:mr-0" data-action="scroll-&gt;scroll#showButton" data-controller="scroll"><nav aria-label="breadcrumbs" class="print:hidden mt-12 text-sm text-gray-light" role="navigation">
-<a class="text-gray-light text-sm hover:text-gray-dark font-medium focus:text-gray-dark" href="index.html">Geir Villy Isaksen's cheats sheets</a>
-<span class="mr-1">/</span><span aria-current="page">Scripting &amp; environments</span>
+  </aside>
+
+  <main
+    data-controller="scroll"
+    data-action="scroll->scroll#showButton"
+    class="px-4 xl:ml-fluid grid-area-main overflow-y-auto flex flex-col h-full mx-0 md:mx-auto xl:mr-0"
+  ><nav role="navigation"
+     aria-label="breadcrumbs"
+     class="print:hidden mt-12 text-sm text-gray-light">
+  <a class="text-gray-light text-sm hover:text-gray-dark font-medium focus:text-gray-dark" href="index.html">Geir Villy Isaksen's cheats sheets</a>
+  <span class="mr-1">/</span><span aria-current="page">Scripting &amp; environments</span>
 </nav>
-<article class="flex-1" role="main">
-<section class="tex2jax_ignore mathjax_ignore" id="scripting-environments">
-<h1>Scripting &amp; environments<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#scripting-environments"><span>#</span></a></h1>
+    <article role="main" class="flex-1">
+      
+  <section class="tex2jax_ignore mathjax_ignore" id="scripting-environments">
+<h1>Scripting &amp; environments<a class="headerlink" href="#scripting-environments" title="Permalink to this headline"><span>#</span></a></h1>
 <section id="python">
-<h2>Python<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#python"><span>#</span></a></h2>
-<div class="code-wrapper" data-controller="code">
-<div class="code-header">
-<span class="code-lang">bash</span></div>
-<div class="highlight"><pre><code>python3 -m venv &lt;venv_name&gt;
+<h2>Python<a class="headerlink" href="#python" title="Permalink to this headline"><span>#</span></a></h2>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>python3 -m venv &lt;venv_name&gt;
 <span class="nb">source</span> venv_name/bin/activate
 </code></pre></div></div>
 </section>
 <section id="conda">
-<h2>conda<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#conda"><span>#</span></a></h2>
+<h2>conda<a class="headerlink" href="#conda" title="Permalink to this headline"><span>#</span></a></h2>
 <section id="search-and-find-packages">
-<h3>Search and find packages<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#search-and-find-packages"><span>#</span></a></h3>
-<div class="code-wrapper" data-controller="code">
-<div class="code-header">
-<span class="code-lang">bash</span></div>
-<div class="highlight"><pre><code>conda search &lt;package_name&gt;
+<h3>Search and find packages<a class="headerlink" href="#search-and-find-packages" title="Permalink to this headline"><span>#</span></a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>conda search &lt;package_name&gt;
 </code></pre></div></div>
-<p>All packages are listed <a class="reference external" href="https://docs.anaconda.com/anaconda/packages/pkg-docs/" rel="nofollow noopener">here<svg aria-hidden="true" class="external-link-icon" viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 19H5V5h7V3H5a2 2 0 00-2 2v14a2 2 0 002 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"></path></svg></a></p>
+<p>All packages are listed <a class="reference external" href="https://docs.anaconda.com/anaconda/packages/pkg-docs/">here</a></p>
 </section>
 <section id="installing-and-removing-packages">
-<h3>Installing and removing packages<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#installing-and-removing-packages"><span>#</span></a></h3>
+<h3>Installing and removing packages<a class="headerlink" href="#installing-and-removing-packages" title="Permalink to this headline"><span>#</span></a></h3>
 <p>Install packages with</p>
-<div class="code-wrapper" data-controller="code">
-<div class="code-header">
-<span class="code-lang">bash</span></div>
-<div class="highlight"><pre><code>conda install &lt;package_name&gt;
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>conda install &lt;package_name&gt;
 </code></pre></div></div>
 <p>or from a specific channel with:</p>
-<div class="code-wrapper" data-controller="code">
-<div class="code-header">
-<span class="code-lang">bash</span></div>
-<div class="highlight"><pre><code>conda install --channel &lt;channel_name&gt; &lt;package_name&gt;
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>conda install --channel &lt;channel_name&gt; &lt;package_name&gt;
 </code></pre></div></div>
 <p>Install package in a specific environment:</p>
-<div class="code-wrapper" data-controller="code">
-<div class="code-header">
-<span class="code-lang">bash</span></div>
-<div class="highlight"><pre><code>conda install --name &lt;env_name&gt; &lt;package_name&gt;
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>conda install --name &lt;env_name&gt; &lt;package_name&gt;
 </code></pre></div></div>
 <section id="installed-packages-in-current-environment">
-<h4>Installed packages in current environment<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#installed-packages-in-current-environment"><span>#</span></a></h4>
-<div class="code-wrapper" data-controller="code">
-<div class="code-header">
-<span class="code-lang">bash</span></div>
-<div class="highlight"><pre><code>conda list
+<h4>Installed packages in current environment<a class="headerlink" href="#installed-packages-in-current-environment" title="Permalink to this headline"><span>#</span></a></h4>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>conda list
 </code></pre></div></div>
 </section>
 <section id="install-directly-from-pypi">
-<h4>Install directly from PyPI<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#install-directly-from-pypi"><span>#</span></a></h4>
+<h4>Install directly from PyPI<a class="headerlink" href="#install-directly-from-pypi" title="Permalink to this headline"><span>#</span></a></h4>
 <p>In an active conda environment you can install PyPI packages using pip as normal</p>
-<div class="code-wrapper" data-controller="code">
-<div class="code-header">
-<span class="code-lang">bash</span></div>
-<div class="highlight"><pre><code>pip install &lt;package_name&gt;
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>pip install &lt;package_name&gt;
 </code></pre></div></div>
 </section>
 </section>
 <section id="create-and-delete-environment">
-<h3>Create and delete environment<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#create-and-delete-environment"><span>#</span></a></h3>
+<h3>Create and delete environment<a class="headerlink" href="#create-and-delete-environment" title="Permalink to this headline"><span>#</span></a></h3>
 <p>See available environments with:</p>
-<div class="code-wrapper" data-controller="code">
-<div class="code-header">
-<span class="code-lang">bash</span></div>
-<div class="highlight"><pre><code>conda env list
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>conda env list
 </code></pre></div></div>
 <p>or</p>
-<div class="code-wrapper" data-controller="code">
-<div class="code-header">
-<span class="code-lang">bash</span></div>
-<div class="highlight"><pre><code>conda info --envs
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>conda info --envs
 </code></pre></div></div>
 <p>and activate with</p>
-<div class="code-wrapper" data-controller="code">
-<div class="code-header">
-<span class="code-lang">bash</span></div>
-<div class="highlight"><pre><code>conda activate &lt;env_name&gt;
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>conda activate &lt;env_name&gt;
 </code></pre></div></div>
 <p>Creating a new environment with:</p>
-<div class="code-wrapper" data-controller="code">
-<div class="code-header">
-<span class="code-lang">bash</span></div>
-<div class="highlight"><pre><code>conda create --name &lt;env_name&gt;
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>conda create --name &lt;env_name&gt;
 </code></pre></div></div>
 <p>or with a specific python version:</p>
-<div class="code-wrapper" data-controller="code">
-<div class="code-header">
-<span class="code-lang">bash</span></div>
-<div class="highlight"><pre><code>conda create --name &lt;env_name&gt; <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.8
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>conda create --name &lt;env_name&gt; <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.8
 </code></pre></div></div>
 <p>Delete environment with:</p>
-<div class="code-wrapper" data-controller="code">
-<div class="code-header">
-<span class="code-lang">bash</span></div>
-<div class="highlight"><pre><code>conda env remove --name &lt;env_name&gt;
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>conda env remove --name &lt;env_name&gt;
 </code></pre></div></div>
 </section>
 <section id="save-and-share-environments">
-<h3>Save and share environments<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#save-and-share-environments"><span>#</span></a></h3>
+<h3>Save and share environments<a class="headerlink" href="#save-and-share-environments" title="Permalink to this headline"><span>#</span></a></h3>
 <p>Dependencies can be stored in a YAML fils that can be read on all platforms
 (mac, win, linux):</p>
-<div class="code-wrapper" data-controller="code">
-<div class="code-header">
-<span class="code-lang">bash</span></div>
-<div class="highlight"><pre><code>conda env <span class="nb">export</span> --name ENV_NAME &gt; env_name.yml
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>conda env <span class="nb">export</span> --name ENV_NAME &gt; env_name.yml
 </code></pre></div></div>
 <p>and to create the environment:</p>
-<div class="code-wrapper" data-controller="code">
-<div class="code-header">
-<span class="code-lang">bash</span></div>
-<div class="highlight"><pre><code>conda env create --file env_name.yml
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>conda env create --file env_name.yml
 </code></pre></div></div>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>if there is a file named <em>environmet.yml</em> in your current director, you can simlply just type:</p>
-<div class="code-wrapper" data-controller="code">
-<div class="code-header">
-<span class="code-lang">bash</span></div>
-<div class="highlight"><pre><code>conda env create
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>conda env create
 </code></pre></div></div>
 </div>
 <section id="save-with-exact-packages">
-<h4>Save with exact packages<a aria-label="Click to copy this link" class="headerlink tooltipped tooltipped-ne" data-action="click-&gt;clipboard#copyHeaderLink" data-controller="clipboard" href="#save-with-exact-packages"><span>#</span></a></h4>
+<h4>Save with exact packages<a class="headerlink" href="#save-with-exact-packages" title="Permalink to this headline"><span>#</span></a></h4>
 <p>Save the current environment (exact) to a text file with</p>
-<div class="code-wrapper" data-controller="code">
-<div class="code-header">
-<span class="code-lang">bash</span></div>
-<div class="highlight"><pre><code>conda list --explicit &gt; env_name.txt
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>conda list --explicit &gt; env_name.txt
 </code></pre></div></div>
 <p>and rebuild the exact environment with</p>
-<div class="code-wrapper" data-controller="code">
-<div class="code-header">
-<span class="code-lang">bash</span></div>
-<div class="highlight"><pre><code>conda env create --file env_name.txt
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>conda env create --file env_name.txt
 </code></pre></div></div>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
@@ -281,19 +278,36 @@
 </section>
 </section>
 </section>
-</article>
-<footer>
-<div class="mt-20 mb-4 text-sm text-gray-700">© 2022, Geir Villy Isaksen Made with <a href="https://www.sphinx-doc.org">Sphinx 4.4.0</a></div>
-</footer></main>
-<button class="fixed bottom-0 right-0 z-20 opacity-0 p-4 m-4 tracking-wide bg-gray-900 text-gray-100 transition transform transform-gpu duration-500 translate-y-full" data-action="search#hideSnackbar" data-search-target="snackbar">
+
+
+    </article>
+
+    <footer>
+      
+        <div class="mt-20 mb-4 text-sm text-gray-700">&copy; 2022, Geir Villy Isaksen&nbsp;Made with <a href="https://www.sphinx-doc.org">Sphinx 4.4.0</a></div>
+      
+    </footer></main>
+
+
+      <button
+  data-search-target="snackbar"
+  data-action="search#hideSnackbar"
+  class="fixed bottom-0 right-0 z-20 opacity-0 p-4 m-4 tracking-wide bg-gray-900 text-gray-100 transition transform transform-gpu duration-500 translate-y-full"
+>
   Clear highlights
-</button><div class="fixed hidden inset-0 bg-black bg-opacity-50" data-action="click-&gt;sidebar#close" data-sidebar-target="screen">
+</button><div
+  data-sidebar-target="screen"
+  data-action="click->sidebar#close"
+  class="fixed hidden inset-0 bg-black bg-opacity-50">
 </div>
-</div>
-<script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
-<script src="_static/jquery.js"></script>
-<script src="_static/underscore.js"></script>
-<script src="_static/doctools.js"></script>
-<script src="_static/theme.3666d2347a4c66e5d7a8.js"></script>
-</body>
+    </div>
+    
+      
+  <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+  <script src="_static/jquery.js"></script>
+  <script src="_static/underscore.js"></script>
+  <script src="_static/doctools.js"></script>
+<script src="_static/theme.1ba02c30758e6036ba31.js"></script>
+    
+  </body>
 </html>
