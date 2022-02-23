@@ -44,7 +44,17 @@ For now, I will just throw these in here in a random fashion. Maybe categorize l
 ### Custom modules 
 You can do your own modules, say under HOME/my_modules. Then, you can make them available for module commands by running `module use -a $HOME/my_modules.`
 
-### Show hidde modules
+### Available modules
+```bash
+module avail
+```
+The `avail` keyword can also be used to search for modules:
+```bash
+module avail libglu
+```
+
+
+### Finding hidden modules
 `module --show-hidden avail`
 
 ## Node cpu core/task
