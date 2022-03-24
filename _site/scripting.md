@@ -69,6 +69,18 @@ Delete environment with:
 conda env remove --name <env_name>
 ```
 
+#### Create and delete env to directory/path
+Simple enough, replace `--name` with `--prefix`.
+
+```bash
+conda env create --prefix /path/to/new/conda_env
+```
+
+```bash
+cond env remove --prefix /path/to/new/conda_env
+```
+
+
 ### Save and share environments
 Dependencies can be stored in a YAML fils that can be read on all platforms
 (mac, win, linux):

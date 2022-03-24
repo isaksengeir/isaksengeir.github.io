@@ -246,6 +246,14 @@
 <p>Delete environment with:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><code>conda env remove --name &lt;env_name&gt;
 </code></pre></div></div>
+<section id="create-and-delete-env-to-directory-path">
+<h4>Create and delete env to directory/path<a class="headerlink" href="#create-and-delete-env-to-directory-path" title="Permalink to this headline"><span>#</span></a></h4>
+<p>Simple enough, replace <code class="docutils literal notranslate"><span class="pre">--name</span></code> with <code class="docutils literal notranslate"><span class="pre">--prefix</span></code>.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>conda env create --prefix /path/to/new/conda_env
+</code></pre></div></div>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><code>cond env remove --prefix /path/to/new/conda_env
+</code></pre></div></div>
+</section>
 </section>
 <section id="save-and-share-environments">
 <h3>Save and share environments<a class="headerlink" href="#save-and-share-environments" title="Permalink to this headline"><span>#</span></a></h3>
